@@ -1,4 +1,4 @@
-~~~#PowerShell
+#PowerShell
 echo "`n"|Out-Null
 Write-Host "FILE CONTAINING THE NAME OF THE GROUPS HAS TO BE .TXT" -BackgroundColor White -ForegroundColor DarkRed
 echo "`n"|Out-Null 
