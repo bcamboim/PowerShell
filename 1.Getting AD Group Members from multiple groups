@@ -1,4 +1,5 @@
-`echo "`n"|Out-Null
+~~~#PowerShell
+echo "`n"|Out-Null
 Write-Host "FILE CONTAINING THE NAME OF THE GROUPS HAS TO BE .TXT" -BackgroundColor White -ForegroundColor DarkRed
 echo "`n"|Out-Null 
 Start-Sleep -Seconds 3
@@ -95,4 +96,4 @@ $resultadoExtracao | Export-Csv $filenameExtr #EXPORTING THE GROUP MEMBER AS A C
 Write-Host "`nSUCCESSFULLY COMPLETED" -ForegroundColor DarkRed -BackgroundColor White
 Start-Sleep -Seconds 3 |Out-Null
 
-Read-Host -Prompt "`nPRESS ENTER TO FINISH" `
+Read-Host -Prompt "`nPRESS ENTER TO FINISH" 
