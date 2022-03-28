@@ -1,4 +1,4 @@
-~~~ #PowerShell
+#PowerShell
 $dcs = Get-ADDomainController 
 
 $id = read-host "Event ID [4624/4625]" #reads input as a string
