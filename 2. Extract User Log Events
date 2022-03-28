@@ -1,10 +1,10 @@
 #PowerShell
-$dcs = Get-ADDomainController 
+$dcs = Get-ADDomainController
 
 $id = read-host "Event ID [4624/4625]" #reads input as a string
 $id = $id -as [int] #convert string to int
 
-if (($id -eq 4625) -or ($id -eq 4624)){ #here we are only interested in these two types of ID
+if (($id -eq 4625) -or ($id -eq 4624)){ #here we are only interested in these to types of ID
 
     $user = (Read-Host "UserName").ToLower()
     $searchPeriod = read-host "Search period [days]"
@@ -35,6 +35,9 @@ if (($id -eq 4625) -or ($id -eq 4624)){ #here we are only interested in these tw
 
             if($dlg.ShowDialog() -eq 'Cancel'){
                 Write-Host "No path was chosen, the operation will be terminated" -BackgroundColor White -ForegroundColor DarkRed
+                break
+                
+            }else{
                 $path = $dlg.FileName
             }
             $events | Export-Csv $path -notypeinformation
