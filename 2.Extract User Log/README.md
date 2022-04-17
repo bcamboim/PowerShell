@@ -1,5 +1,5 @@
 <p> Hello everyone, as the name suggests, this code is to extract a Log</p>
-<p><em>This code is not generic and it only gets the events 4624 and 4625, and looking back it could be. In the near future, I'll try to write a generic version.</em></p>
+<p><em>This code is not generic and it only gets the events 4624 and 4625 and looking back it could have been. In the near future, I'll try to write a generic version.</em></p>
 
 <p>This code consists of the steps:
     <ul>
