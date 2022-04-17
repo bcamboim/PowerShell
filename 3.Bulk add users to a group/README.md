@@ -6,14 +6,14 @@
     <ul>
         <li>Importing the list of users that you wish to move</li>
         <li>Getting the members of the group</li>
-        <li>Is the user in already in the group?
+        <li>The user already belongs to group?
             <ul>
-                <li>If the user is in the group:
+                <li>If the user does:
                     <ul>
                         <li>Show a message saying that the user already belongs to the group – There is no action to be done.</li>
                     </ul>
                 </li>
-                <li>If the user is not in the group:
+                <li>If the user does not:
                     <ul>
                         <li>Add user to the group.</li>
                     </ul>
