@@ -1,4 +1,4 @@
-<p> Hello everyone, as the name of the sugests this code is to bulk add users to a group!</p>
+<p> Hello everyone, as the name suggests, this code is to bulk add users to a group!</p>
 <p><em>I wanted to do something more complete here so this code is a little florid. You can comment line 3 till line 15 because what it does is open a window where you can choose the CSV file with the names of the users you wish to import.</em></p>
 <p><em>p.s: If you do comment these line please import the csv using the command <strong>Import-CSV</strong></em></p>
 
