@@ -5,7 +5,7 @@
 <p>This code consists of the steps:
     <ul>
         <li>Importing a TXT file that contains the name of the groups. <em>The names of the groups have to be ordered in a column, check for empty spaces as well</em></li>
-        <li>Getting the names that were imported and putting them in an array variable. <em>p.s: It was one of my first codes and I found myself facing the problem where the Foreach command was not working to interact with each line of the TXT file and do the required action, so my solution was, at the time, to do a create the array containing the name of the groups so I could interact with each index of the array later and do the action of getting the group member.</em></li>
+        <li>Getting the names that were imported and putting them in an array variable. <em>p.s: It was one of my first codes and I found myself facing the problem where the Foreach command was not working to interact with each line of the TXT file and do the required action, so my solution was, at the time, to create an array containing the name of the groups so I could interact with each index of the array later and do the action of getting the group member.</em></li>
         <li>Walking through the array of names of the groups and executing the actions 
             <ul>
                 <li>Does the name match any AD Group?
