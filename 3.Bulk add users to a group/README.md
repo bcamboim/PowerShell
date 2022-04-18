@@ -6,7 +6,7 @@
     <ul>
         <li>Importing the list of users that you wish to move</li>
         <li>Getting the members of the group</li>
-        <li>Does the user already belongs to group?
+        <li>Does the user already belongs to the group?
             <ul>
                 <li>If the user does:
                     <ul>
